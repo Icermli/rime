@@ -2,9 +2,9 @@ patch:
   show_notifications_when: appropriate          # 状态通知，适当，也可设为全开（always）全关（never）
 
   style/horizontal: true                        # 候選橫排
-  #style/inline_preedit: true                    # 內嵌編碼（僅支持TSF）
+  #style/inline_preedit: true                   # 內嵌編碼（僅支持TSF）
   style/display_tray_icon: flase                # 顯示托盤圖標
-  style/color_scheme: leisure_dark                # 方案命名，不能有空格
+  style/color_scheme: leisure_dark              # 方案命名，不能有空格
   preset_color_schemes/leisure_dark:
     name: 幽暗／leisure dark
     author: icerm <topolopy@gmail.com>
@@ -16,7 +16,7 @@ patch:
     border_height: 6                            # 窗口边界高度，大于圆角半径才生效
     border_width: 6                             # 窗口边界宽度，大于圆角半径才生效
     border_color_width: 0
-    #font_face: "PingFangSC"                     # 候选词字体
+    font_face: "PingFangSC"                     # 候选词字体
     font_point: 16                              # 候选字词大小
     label_font_point: 14                        # 候选编号大小
 
@@ -31,7 +31,7 @@ patch:
     hilited_candidate_back_color: 0x4b4b4b      # 第一候选项背景背景色
     hilited_candidate_label_color: 0xffffff     # 第一候选项编号颜色
     comment_text_color: 0xdedddd                # 拼音等提示文字颜色
-    #hilited_comment_text_color: 0xdedddd        # 注解文字高亮
+    hilited_comment_text_color: 0xdedddd        # 注解文字高亮
 
 
   "app_options/com.runningwithcrayons.Alfred-3/ascii_mode": true
