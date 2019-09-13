@@ -14,7 +14,7 @@ patch:
       border_height: 0                          # 窗口边界高度，大于圆角半径才生效
       border_width: 0                           # 窗口边界宽度，大于圆角半径才生效
       border_color_width: 0
-      font_face: "PingFangSC"                   # 候选词字体
+      font_face: "PingFangSC-Regular"           # 候选词字体
       font_point: 16                            # 候选字词大小
       label_font_point: 14                      # 候选编号大小
 
