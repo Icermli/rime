@@ -5,10 +5,10 @@ patch:
   - schema: luna_pinyin_simp      # 朙月拼音 简化字
   - schema: luna_pinyin           # 朙月拼音
   - schema: luna_pinyin_fluency   # 语句流
-#  - schema: double_pinyin         # 自然碼雙拼
-#  - schema: double_pinyin_flypy   # 小鹤雙拼
-#  - schema: double_pinyin_pyjj    # 拼音加加双拼
-#  - schema: wubi_pinyin           # 五笔拼音混合輸入
+  - schema: double_pinyin         # 自然碼雙拼
+  - schema: double_pinyin_flypy   # 小鹤雙拼
+  - schema: double_pinyin_pyjj    # 拼音加加双拼
+  - schema: wubi_pinyin           # 五笔拼音混合輸入
 
   switcher:
     abbreviate_options: true
@@ -38,6 +38,8 @@ patch:
     Shift_L: commit_code
     Shift_R: noop
 
+  # 使用 "[]" 作为翻页按键，也可以绑定其他如 "-=", 参考下面链接
+  # https://gist.github.com/lotem/2316704
   key_binder/bindings:
     - when: paging
       accept: bracketleft
