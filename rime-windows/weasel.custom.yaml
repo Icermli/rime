@@ -4,10 +4,10 @@ patch:
   style/horizontal: true                        # 候選橫排
   #style/inline_preedit: true                    # 內嵌編碼（僅支持TSF）
   style/display_tray_icon: flase                # 顯示托盤圖標
-  style/color_scheme: mritd_dark                # 方案命名，不能有空格
-  preset_color_schemes/mritd_dark:
-    name: 漠然／mritd dark
-    author: mritd <mritd1234@gmail.com>
+  style/color_scheme: leisure_dark                # 方案命名，不能有空格
+  preset_color_schemes/leisure_dark:
+    name: 幽暗／leisure dark
+    author: icerm <topolopy@gmail.com>
     horizontal: true                            # 水平排列
     inline_preedit: true                        # 单行显示，false双行显示
     candidate_format: "%c\u2005%@"              # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
