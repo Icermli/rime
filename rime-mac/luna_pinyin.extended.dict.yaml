@@ -44,6 +44,12 @@ use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
   - luna_pinyin.sougou
+  - luna_pinyin.sogou.chengyu
+  - luna_pinyin.sogou.computer
+  - luna_pinyin.sogou.mobile
+  - luna_pinyin.sogou.poetry
+  - luna_pinyin.sogou.popular
+  - luna_pinyin.sogou.social
   - luna_pinyin.poetry
   - luna_pinyin.cn_en
   - luna_pinyin.kaomoji
@@ -79547,7 +79553,7 @@ import_tables:
 王念慈
 王女士
 王鷗
-王牌播音員 
+王牌播音員
 王牌大律師
 王沛然
 王嬪娜
@@ -91445,7 +91451,7 @@ import_tables:
 雅客
 雅庫特
 雅里茲
-雅禮式 
+雅禮式
 雅利安人
 雅莉
 雅礱
@@ -93064,7 +93070,7 @@ import_tables:
 耶利哥城
 耶利哥地震
 耶利奇
-耶魯式 
+耶魯式
 耶律純
 耶律真經
 耶羅
