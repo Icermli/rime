@@ -1,3 +1,9 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Oct 13 21:14:11 2023"
+  rime_version: 1.8.5
 patch:
   show_notifications_when: appropriate          # 状态通知，适当，也可设为全开（always）全关（never）
 
